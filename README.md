@@ -1,6 +1,6 @@
 # sqreen-test
 
-This project starts a tomcat in a docker container. Tomcat will automaticaly add a custom header to all HTTP responses. Any .war file present in the hode directory will be deployed.
+This project starts a tomcat in a docker container. Tomcat will automaticaly add a custom header to all HTTP responses. Any .war file present in the current directory will be deployed.
 
 1. Build docker image
 `sudo docker build -t ama/tomcat-sqreen .` 
